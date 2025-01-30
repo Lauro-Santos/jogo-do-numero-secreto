@@ -45,6 +45,6 @@ Sinta-se à vontade para contribuir com melhorias ou correções. Para isso, sig
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](MIT) para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE]([MIT](https://opensource.org/license/mit)) para mais detalhes.
 
 Bom aprendizado!
