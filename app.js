@@ -1,5 +1,5 @@
 let listaNumeroSorteados = [];
-let numeroLimite = 15;
+let numeroLimite = 20;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 0;
 
@@ -31,8 +31,8 @@ function gerarNumeroAleatorio() {
 //função para exibir mensagem inicial
 function exibirMensagemInicial() {
   exibirTextoTela("h1", "Hora do Desafio");
-  exibirTextoTela(".texto__paragrafo", "Escolha um numero entre 1 e 10");
-  responsivevoice.speak("Escolha um numero entre 1 e 10", "Brazilian Portuguese Female", {rate: 0.9});
+  exibirTextoTela(".texto__paragrafo", `Escolha um numero entre 1 e ${numeroLimite}`);
+  responsivevoice.speak(`Escolha um numero entre 1 e ${numeroLimite}`, "Brazilian Portuguese Female", {rate: 0.9});
 }
 
 exibirMensagemInicial();
